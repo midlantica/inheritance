@@ -38,7 +38,7 @@ public class Vehicle
   public virtual void Turn()
   {
     Direction = "right";
-    Console.WriteLine($"The {Name} stops like Erhhh!");
+    Console.WriteLine($"The {Name} turns {Direction}");
   }
 
 }

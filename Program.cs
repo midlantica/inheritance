@@ -16,8 +16,10 @@ namespace Inheritance
       fxs.Drive();
       modelS.Drive();
       mx410.Drive();
+      Console.WriteLine($"");
       realFastModel.Drive();
       realFastModel.Stop();
+      realFastModel.Turn();
 
       string ramColor = "Red";
       Console.WriteLine($"My new Dodge is {ramColor}");
